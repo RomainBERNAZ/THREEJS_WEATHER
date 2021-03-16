@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  background-color: white;
+}
+
+.form {
+  display: block;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  height: 5vh;
+  color: white;
+}
+
+.form .inputLink {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.form .inputLink input {
+  height: 4vh;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.form .inputLink button {
+  height: 4vh;
+  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+  border: 4px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.temperature {
+  color: white;
+  position: absolute;
+  text-align: center;
+  font-size: 4rem;
+  top: 50%;
+  left: 23%;
+}
+
+.temperature img {
+  -webkit-transform: scale(3);
+          transform: scale(3);
+}
+/*# sourceMappingURL=App.css.map */
